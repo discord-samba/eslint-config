@@ -1,0 +1,13 @@
+{
+  "name": "@discord-sambo/eslint-config",
+  "version": "0.1.0",
+  "description": "Official eslint-config for Sambo",
+  "main": "index.js",
+  "repository": "https://github.com/discord-sambo/eslint-config.git",
+  "author": "Zack Campbell",
+  "license": "MIT",
+  "dependencies": {
+    "@typescript-eslint/eslint-plugin": "^2.4.0",
+    "@typescript-eslint/parser": "^2.4.0"
+  }
+}
