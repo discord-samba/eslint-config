@@ -154,7 +154,7 @@
 		"prefer-promise-reject-errors": "warn",
 		"prefer-regex-literals": "warn",
 		"require-await": "off",
-		"@typescript-eslint/require-await": "warn",
+		"@typescript-eslint/require-await": "off",
 		"wrap-iife": [
 			"error",
 			"inside"
