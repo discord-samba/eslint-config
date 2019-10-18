@@ -71,7 +71,7 @@
 		"dot-notation": [
 			"error",
 			{
-				"allowKeywords": false
+				"allowKeywords": true
 			}
 		],
 		"eqeqeq": "error",
