@@ -33,7 +33,13 @@
 		"no-empty-character-class": "warn",
 		"no-ex-assign": "error",
 		"no-extra-parens": "off",
-		"@typescript-eslint/no-extra-parens": "warn",
+		"@typescript-eslint/no-extra-parens": [
+			"warn",
+			"all",
+			{
+				"nestedBinaryExpressions": true
+			}
+		],
 		"no-extra-semi": "error",
 		"no-func-assign": "error",
 		"no-import-assign": "error",
