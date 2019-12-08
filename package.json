@@ -1,9 +1,9 @@
 {
-  "name": "@discord-sambo/eslint-config",
+  "name": "@discord-samba/eslint-config",
   "version": "0.1.0",
-  "description": "Official eslint-config for Sambo",
+  "description": "Official eslint-config for Samba",
   "main": "index.js",
-  "repository": "https://github.com/discord-sambo/eslint-config.git",
+  "repository": "https://github.com/discord-samba/eslint-config.git",
   "author": "Zack Campbell",
   "license": "MIT",
   "dependencies": {
