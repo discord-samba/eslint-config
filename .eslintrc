@@ -478,12 +478,16 @@
 			}
 		],
 		"no-class-assign": "error",
-		"no-confusing-arrow": [
-			"error",
-			{
-				"allowParens": true
-			}
-		],
+
+		// This rule conflicts with @typescript-eslint/no-extra-parens,
+		// won't allow using parens to circumvent it
+		// "no-confusing-arrow": [
+		// 	"error",
+		// 	{
+		// 		"allowParens": true
+		// 	}
+		// ],
+
 		"no-const-assign": "error",
 
 		// This interferes with method overloading in Typescript, sadly
