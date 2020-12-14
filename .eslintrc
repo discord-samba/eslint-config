@@ -113,7 +113,8 @@
 		"no-implicit-coercion": "error",
 		"no-implicit-globals": "error",
 		"no-implied-eval": "error",
-		"no-invalid-this": "error",
+		"no-invalid-this": "off",
+		"@typescript-eslint/no-invalid-this": ["error"],
 		"no-iterator": "error",
 		"no-lone-blocks": "error",
 		"no-loop-func": "error",
@@ -425,7 +426,11 @@
 		],
 		"space-before-function-paren": [
 			"error",
-			"never"
+			{
+				"anonymous": "never",
+				"named": "never",
+				"asyncArrow": "always"
+			}
 		],
 		"space-in-parens": [
 			"error",
@@ -660,7 +665,7 @@
 				"checkMethodDeclarations": true
 			}
 		],
-		"@typescript-eslint/require-array-sort-compare": "error",
+		// "@typescript-eslint/require-array-sort-compare": "error",
 		"@typescript-eslint/restrict-plus-operands": "error",
 
 		// This causes problems with optional chaining in TS 3.7 in that
