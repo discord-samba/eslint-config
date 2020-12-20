@@ -233,7 +233,7 @@
 		"camelcase": "off",
 
 		"@typescript-eslint/naming-convention": [
-			"warn",
+			"error",
 			{
 				"selector": "variableLike",
 				"format": ["camelCase", "UPPER_CASE"]
