@@ -244,6 +244,12 @@
 				"format": null
 			},
 			{
+				"selector": "variable",
+				"modifiers": ["global"],
+				"format": ["camelCase", "PascalCase", "UPPER_CASE"],
+				"leadingUnderscore": "allow"
+			},
+			{
 				"selector": "memberLike",
 				"format": ["camelCase", "UPPER_CASE"]
 			},
