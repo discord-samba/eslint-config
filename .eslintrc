@@ -179,7 +179,9 @@
 		// Add later if necessary
 		// "no-restricted-globals": []
 
-		"no-shadow": "error",
+		"no-shadow": "off",
+		"@typescript-eslint/no-shadow": ["error"],
+
 		"no-shadow-restricted-names": "error",
 
 		// Disallows "Proxy", don't want to use /* global */ comments
@@ -229,12 +231,30 @@
 			}
 		],
 		"camelcase": "off",
-		"@typescript-eslint/camelcase": [
+
+		"@typescript-eslint/naming-convention": [
 			"warn",
 			{
-				"properties": "always"
+				"selector": "variableLike",
+				"format": ["camelCase", "UPPER_CASE"]
+			},
+			{
+				"selector": "memberLike",
+				"modifiers": ["private"],
+				"format": ["camelCase"],
+				"leadingUnderscore": "require"
+			},
+			{
+				"selector": "class",
+				"format": ["PascalCase"]
+			},
+			{
+				"selector": "parameter",
+				"format": ["camelCase"],
+				"leadingUnderscore": "allow"
 			}
 		],
+
 		"capitalized-comments": [
 			"warn",
 			"always",
@@ -555,12 +575,6 @@
 			}
 		],
 		"@typescript-eslint/await-thenable": "warn",
-		"@typescript-eslint/class-name-casing": [
-			"error",
-			{
-				"allowUnderscorePrefix": true
-			}
-		],
 		"@typescript-eslint/consistent-type-assertions": [
 			"error",
 			{
@@ -594,12 +608,6 @@
 					"delimiter": "comma",
 					"requireLast": false
 				}
-			}
-		],
-		"@typescript-eslint/member-naming": [
-			"error",
-			{
-				"private": "^_"
 			}
 		],
 		"@typescript-eslint/no-array-constructor": "error",
