@@ -1,17 +1,17 @@
 {
-  "name": "@discord-samba/eslint-config",
-  "version": "0.1.0",
-  "description": "Official eslint-config for Samba",
-  "main": "index.js",
-  "repository": "https://github.com/discord-samba/eslint-config.git",
-  "author": "Zack Campbell",
-  "license": "MIT",
-  "dependencies": {
-    "@typescript-eslint/eslint-plugin": "^4.10.0",
-    "@typescript-eslint/parser": "^4.10.0"
-  },
-  "devDependencies": {
-    "eslint": "^7.16.0",
-    "typescript": "3.8.3"
-  }
+	"name": "@discord-samba/eslint-config",
+	"version": "0.1.0",
+	"description": "Official eslint-config for Samba",
+	"main": "index.js",
+	"repository": "https://github.com/discord-samba/eslint-config.git",
+	"author": "Zack Campbell",
+	"license": "MIT",
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.10.0",
+		"@typescript-eslint/parser": "^4.10.0"
+	},
+	"devDependencies": {
+		"eslint": "^7.16.0",
+		"typescript": "3.8.3"
+	}
 }

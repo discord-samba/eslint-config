@@ -239,10 +239,23 @@
 				"format": ["camelCase", "UPPER_CASE"]
 			},
 			{
+				"selector": "variable",
+				"modifiers": ["destructured"],
+				"format": null
+			},
+			{
+				"selector": "memberLike",
+				"format": ["camelCase", "UPPER_CASE"]
+			},
+			{
 				"selector": "memberLike",
 				"modifiers": ["private"],
 				"format": ["camelCase"],
 				"leadingUnderscore": "require"
+			},
+			{
+				"selector": "enumMember",
+				"format": ["camelCase", "UPPER_CASE", "PascalCase"]
 			},
 			{
 				"selector": "class",
@@ -251,6 +264,11 @@
 			{
 				"selector": "parameter",
 				"format": ["camelCase"],
+				"leadingUnderscore": "allow"
+			},
+			{
+				"selector": "typeProperty",
+				"format": null,
 				"leadingUnderscore": "allow"
 			}
 		],
