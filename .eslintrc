@@ -113,8 +113,10 @@
 		"no-implicit-coercion": "error",
 		"no-implicit-globals": "error",
 		"no-implied-eval": "error",
+
 		"no-invalid-this": "off",
 		"@typescript-eslint/no-invalid-this": ["error"],
+
 		"no-iterator": "error",
 		"no-lone-blocks": "error",
 		"no-loop-func": "error",
@@ -127,10 +129,12 @@
 		"no-octal-escape": "error",
 		"no-param-reassign": "error",
 		"no-proto": "error",
-		"no-redeclare": "error",
+
+		"no-redeclare": "off",
+		"@typescript-eslint/no-redeclare": ["error"],
 
 		// Add later if necessary
-		// "no-restricted-properties" [],
+		// "no-restricted-properties": [],
 
 		"no-return-assign": "error",
 		"no-return-await": "error",
