@@ -259,7 +259,7 @@
 			},
 			{
 				"selector": "memberLike",
-				"modifiers": ["private"],
+				"modifiers": ["private", "protected"],
 				"format": ["camelCase"],
 				"leadingUnderscore": "require"
 			},
