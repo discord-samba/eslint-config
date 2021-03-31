@@ -344,7 +344,8 @@
 		// Add later if necessary?
 		// "id-blacklist": ["error"],
 
-		"indent": [
+		"indent": "off",
+		"@typescript-eslint/indent": [
 			"error",
 			"tab",
 			{
