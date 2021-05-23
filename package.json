@@ -7,7 +7,7 @@
 	"author": "Zack Campbell",
 	"license": "MIT",
 	"dependencies": {
-		"@typescript-eslint/eslint-plugin": "^4.23.0",
+		"@typescript-eslint/eslint-plugin": "^4.24.0",
 		"@typescript-eslint/parser": "^4.23.0"
 	},
 	"devDependencies": {
